@@ -62,6 +62,8 @@ def run(plotIt=True, saveFig=False):
     bzr = FDEM.Rx.Point_bSecondary(rxlocs, 'z', 'real')
     bzi = FDEM.Rx.Point_bSecondary(rxlocs, 'z', 'imag')
 
+    print(bzr)
+
     freqs = np.logspace(2, 3, 5)
     srcLoc = np.array([0., 0., 0.])
 

@@ -787,7 +787,7 @@ class PrimSecCasingExample(object):
 
         ax.axis('equal', adjustable='box')
         ax.axis([-600, 600, -600, 600])
-        ax.set_title('(a) -950m Depth Slice', fontsize=fontsize)
+        ax.set_title('-950m Depth Slice', fontsize=fontsize)
         # interact(plotMe, ind=[0, meshs_plt.vnC[2]-1])
 
         if saveFig is True:
@@ -1353,4 +1353,4 @@ def run(plotIt=False, runTests=False, reRun=False, saveFig=False):
 
 
 if __name__ == '__main__':
-    run(plotIt=True, runTests=False, reRun=False, saveFig=False)
+    run(plotIt=False, runTests=False, reRun=False, saveFig=True)
